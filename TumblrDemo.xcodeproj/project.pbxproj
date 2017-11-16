@@ -12,6 +12,7 @@
 		C923FF831FBE304400302841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C923FF821FBE304400302841 /* Assets.xcassets */; };
 		C923FF861FBE304400302841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C923FF841FBE304400302841 /* LaunchScreen.storyboard */; };
 		C923FF8E1FBE31FD00302841 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923FF8D1FBE31FD00302841 /* PhotosViewController.swift */; };
+		C923FF901FBE35B900302841 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923FF8F1FBE35B900302841 /* PhotoCell.swift */; };
 		FB28C828BF72D502DD638586 /* Pods_TumblrDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43CD7C392230417FFDF2192 /* Pods_TumblrDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		C923FF851FBE304400302841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C923FF871FBE304400302841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C923FF8D1FBE31FD00302841 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		C923FF8F1FBE35B900302841 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		E43CD7C392230417FFDF2192 /* Pods_TumblrDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C923FF8D1FBE31FD00302841 /* PhotosViewController.swift */,
+				C923FF8F1FBE35B900302841 /* PhotoCell.swift */,
 				C923FF7B1FBE304400302841 /* AppDelegate.swift */,
 				C923FF7F1FBE304400302841 /* Main.storyboard */,
 				C923FF821FBE304400302841 /* Assets.xcassets */,
@@ -182,10 +185,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TumblrDemo/Pods-TumblrDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C923FF7C1FBE304400302841 /* AppDelegate.swift in Sources */,
+				C923FF901FBE35B900302841 /* PhotoCell.swift in Sources */,
 				C923FF8E1FBE31FD00302841 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
